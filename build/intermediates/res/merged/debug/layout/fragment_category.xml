@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_bg"
+    android:orientation="vertical" >
+
+    <!-- title bar -->
+
+    <include
+        android:id="@+id/title_bar"
+        layout="@layout/title_bar" />
+<RelativeLayout
+    android:id="@+id/rl_babylisteren"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_below="@id/title_bar">
+<RadioGroup
+    android:id="@+id/rg_babylisteren"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_marginTop="1dp"
+    android:gravity="center"
+    >
+    <RadioButton
+        android:id="@+id/rb_babylisteren_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="儿歌"
+        android:button="@null"
+        android:gravity="right"
+        android:background="@drawable/rb_state"
+        android:checked="true"
+        android:textColor="@drawable/textcolorselctor"
+        />
+    <RadioButton
+        android:id="@+id/rb_babystory_fragment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="故事"
+        android:button="@null"
+        android:gravity="left"
+        android:checked="false"
+        android:background="@drawable/rb_state_right"
+        android:textColor="@drawable/textcolorselctor"
+        />
+</RadioGroup>
+</RelativeLayout>
+<FrameLayout
+    android:id="@+id/fl_babylisteren"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="3dp"
+    android:layout_below="@id/rl_babylisteren"
+    ></FrameLayout>
+</RelativeLayout>

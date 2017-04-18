@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ChildTimes</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+    <string name="home">首页</string>
+    <string name="category">分类</string>
+    <string name="collect">收藏</string>
+    <string name="setting">设置</string>
+
+    <string name="babywatch">宝宝看</string>
+    <string name="babylistener">宝宝听</string>
+    <string name="my">我的</string>
+
+    <string name="erge">儿歌</string>
+    <string name="gushi">故事</string>
+    <string name="donghuapian">动画片</string>
+
+
+    <!-- 分类列表 -->
+    <string name="recommend">推荐</string>
+    <string name="jacket">上衣</string>
+    <string name="skirt">裙子</string>
+    <string name="trousers">裤子</string>
+    <string name="shoes">鞋子</string>
+    <string name="bag">包包</string>
+    <string name="accessories">配饰</string>
+
+    <!-- 设置 -->
+    <string name="recommend_to_weixin_friend">我的下载</string>
+    <string name="feedback">我的收藏</string>
+    <string name="about_us">关于我们</string>
+    <string name="app_recommend">应用推荐</string>
+    <string name="clear_cache">清除缓存</string>
+    <string name="mobile_number">手机号</string>
+    <string name="mobile_number_hint">方便我们尽快反馈</string>
+    <string name="content_edit_hint">欢迎在这儿发表宝贵的意见哦~</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="16dp"
+    android:layout_marginLeft="12dp"
+    android:layout_marginRight="12dp"
+    android:layout_marginTop="2dp"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="4dp"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#fff"
+        android:orientation="vertical">
+<FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+
+    <ImageView
+        android:id="@+id/iv_anima"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:background="@drawable/ic_launcher"
+        />
+    <TextView
+        android:id="@+id/score_anima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="7.4分"
+        android:textColor="#ff00aa"
+        android:layout_gravity="bottom|right"
+        android:background="#ff0000aa"
+        android:layout_marginBottom="2dp"
+        />
+</FrameLayout>
+    <TextView
+        android:id="@+id/tv_anima_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.猫和老鼠"
+        android:textSize="18sp"
+        android:ems="7"
+        android:textColor="#ff000000"
+        android:layout_marginTop="3dp"
+        />
+    <TextView
+        android:id="@+id/tv_anim_album"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="共15集"
+        android:textSize="10sp"
+        android:layout_marginTop="3dp"
+        android:textColor="#ffacacac"
+        />
+    </LinearLayout>
+</android.support.v7.widget.CardView>
